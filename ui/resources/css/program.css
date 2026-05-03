@@ -1,0 +1,67 @@
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: #2196f3;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.button:pressed {
+    -fx-font-weight: bold;
+    -fx-background-color: #DEDEDE;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.button:disabled {
+    -fx-font-weight: bold;
+    -fx-background-color: #888888;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-border-color: #888888;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.label {
+    -fx-text-fill: #222222;     /* exists because of a missing value in a javafx css file */
+}
+
+.label#gridItem {
+    -fx-font-weight: bold;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-font-size: 40;
+    -fx-border-color: #222222;
+    -fx-border-width: 2;
+}
+
+.label#gridItem:disabled {
+    -fx-border-color: #666666;
+    -fx-text-fill: #777777;
+}
+
+.label#historyGrid {
+    -fx-font-size: 16;
+    -fx-border-width: 1;
+    -fx-border-color: #222222;
+    -fx-pref-width: 200;
+    -fx-pref-height: 20;
+}
+
+.label#historyGridHeader {
+    -fx-font-size: 16;
+    -fx-font-weight:  bold;
+    -fx-border-width: 1;
+    -fx-border-color: #222222;
+    -fx-pref-width: 200;
+    -fx-pref-height: 20;
+}
