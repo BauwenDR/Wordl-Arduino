@@ -57,25 +57,25 @@ const char titlePart4[] PROGMEM = "+#+ +#+#+ +#+ +#+    +#+ +#+    +#+ +#+    +#
 const char titlePart5[] PROGMEM = "#+#+# #+#+#  #+#    #+# #+#    #+# #+#    #+# #+#        #+#         \n";
 const char titlePart6[] PROGMEM = "###   ###    ########  ###    ### #########  ########## ##########   \n";
 const char titlePart7[] PROGMEM = "-----------------------------------------------------------------------------------\n";
-const char titlePart8[] PROGMEM = "Klik op knop 2 om verder te gaan.\n";
+const char titlePart8[] PROGMEM = "Press button 2 to continue.\n";
 const char titlePart9[] PROGMEM = "-----------------------------------------------------------------------------------\n";
 
 PGM_P const title_table[] PROGMEM = {
   titlePart0, titlePart1, titlePart2, titlePart3, titlePart4, titlePart5, titlePart6, titlePart7, titlePart8, titlePart9
 };
 
-const char descPart00[] PROGMEM = "selecteer een gamemode, woorden (word) of nummers (nbr): \n";
-const char descPart01[] PROGMEM = "Klik op knop 1 of 3 om de speelmode te verandere nen op knop 2 om te starten\n";
+const char descPart00[] PROGMEM = "select a game mode, words (word) or numbers (nbr): \n";
+const char descPart01[] PROGMEM = "Press button 1 or 3 to change the game mode, and button 2 to start\n";
 const char descPart02[] PROGMEM = "-----------------------------------------------------------------------------------\n";
-const char descPart03[] PROGMEM = "selecteer het woord of getal teken per teken.\n";
-const char descPart04[] PROGMEM = "druk op knop 1 om het teken met 1 te verlagen en op knop 3 om het met 1 te verhogen\n";
-const char descPart05[] PROGMEM = "Ga naar het volgende teken door op knop 2 te drukken\n";
+const char descPart03[] PROGMEM = "Select the word or number one character at a time.\n";
+const char descPart04[] PROGMEM = "Press button 1 to decrease the character by 1, and button 3 to increase it by 1\n";
+const char descPart05[] PROGMEM = "Move to the next character by pressing button 2\n";
 const char descPart06[] PROGMEM = "-----------------------------------------------------------------------------------\n";
-const char descPart07[] PROGMEM = "De leds na een gok betekenen:\n";
-const char descPart08[] PROGMEM = "\taan = teken op juiste plaats.\n";
-const char descPart09[] PROGMEM = "\tsnel blinken: teken komt voor maar staat niet op de juiste plaats.\n";
-const char descPart10[] PROGMEM = "\ttraag blinken: teken komt niet voor\n";
-const char descPart11[] PROGMEM = "Klik vervolgens op knop 2 om opnieuw te raden\n";
+const char descPart07[] PROGMEM = "The LEDs after a guess mean:\n";
+const char descPart08[] PROGMEM = "\ton = character in the correct position.\n";
+const char descPart09[] PROGMEM = "\tflashing quickly: character is present but in the wrong position.\n";
+const char descPart10[] PROGMEM = "\tflashing slowly: character is not present.\n";
+const char descPart11[] PROGMEM = "Then press button 2 to guess again\n";
 
 PGM_P const desc_table[] PROGMEM = {
   descPart00, descPart01, descPart02, descPart03, descPart04, descPart05, descPart06, descPart07, descPart08, descPart09,
